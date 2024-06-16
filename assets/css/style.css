@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 140px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.red-border {
+    border: 2px solid red;
+}
+
+.stickers-section, .password-section {
+    margin: 20px;
+    text-align: center;
+}
+
+.sticker-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sticker-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+select {
+    margin: 0 5px;
+}
